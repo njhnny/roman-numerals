@@ -1,0 +1,1 @@
+split input number into single digit array 

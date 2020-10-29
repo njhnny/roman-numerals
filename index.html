@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script src="js/jquery-3.5.1.js"></script>
@@ -8,6 +8,18 @@
   <title>Roman Numerals</title>
 </head>
 <body>
- 
+  <div class="container">
+    <h1>Number to Roman Numeral Generator</h1>
+    <form id="generator">
+      <label for="userNumber">Type a number that you would like to convert!</label>
+      <input id="userNumber" type="number" max="3999">
+      <br>
+      <br>
+      <button class="btn btn-secondary" id="submitButton">Translate!</button>
+    </form> 
+    <div class="output">
+      <p id="userInput"></p>
+  </div> 
+  </div>
 </body>
 </html>
