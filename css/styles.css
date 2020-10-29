@@ -1,0 +1,8 @@
+#output {
+  display: none;
+  word-wrap: break-word;
+}
+
+h2 {
+  margin-top: 30px;
+}
